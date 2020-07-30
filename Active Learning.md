@@ -10,7 +10,7 @@
 
 主动学习算法可以主动地提出一些标注请求，将一些经过筛选的数据提交给专家进行标注。如图所示（图中的样本选择算法以**基于池(pool-based)**为例，后面第2章会具体讲解样本选择方法）
 
-![image-20200705014217074](/Users/fuguangyu/Documents/%E7%AC%94%E8%AE%B0/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/pic/Active%20Learning.assets/image-20200705014217074.png)
+![image-20200730150026203](pic/Active%20Learning.assets/image-20200730150026203.png)
 
 机器学习模型从少量已标记样本L开始训练，通过一定的样本选择算法选择出一个或者一批最有 **”价值“**（更大的信息量或者不确定性） 的样本交给专家oracle进行标记，标记后的样本加入训练集中参与下一轮的训练。
 
@@ -18,11 +18,11 @@
 
 举个例子：下图中当标记样本较少后，通过主动学习，对具有不确定性的样本交给专家标记，能够显著提升逻辑回归的精度。
 
-![image-20200705020148873](/Users/fuguangyu/Documents/%E7%AC%94%E8%AE%B0/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/pic/Active%20Learning.assets/image-20200705020148873.png)
+![image-20200730150040692](pic/Active%20Learning.assets/image-20200730150040692.png)
 
 ### 2.不同的咨询方式
 
-![image-20200705024335081](/Users/fuguangyu/Documents/%E7%AC%94%E8%AE%B0/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/pic/Active%20Learning.assets/image-20200705024335081.png)
+![image-20200730150054298](pic/Active%20Learning.assets/image-20200730150054298.png)
 
 三种情况：
 

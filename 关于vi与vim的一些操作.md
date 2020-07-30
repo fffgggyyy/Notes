@@ -26,4 +26,4 @@ vim是从 vi 发展出来的一个文本编辑器。代码补完、编译及错�
 
 ### 4.快捷键总结
 
-![vi-vim-cheat-sheet-sch](/Users/fuguangyu/Documents/%E7%AC%94%E8%AE%B0/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/pic/%E5%85%B3%E4%BA%8Evi%E4%B8%8Evim%E7%9A%84%E4%B8%80%E4%BA%9B%E6%93%8D%E4%BD%9C.assets/vi-vim-cheat-sheet-sch.gif)
+![image-20200730145704529](pic/%E5%85%B3%E4%BA%8Evi%E4%B8%8Evim%E7%9A%84%E4%B8%80%E4%BA%9B%E6%93%8D%E4%BD%9C.assets/image-20200730145704529.png)
